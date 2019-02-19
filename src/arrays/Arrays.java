@@ -26,6 +26,9 @@ public class Arrays {
         
         double ventas [ ][ ] = new double[3][4];
         int v[ ][ ] = {{2, 4, 6}, {1, 3, 5}}; 
+        System.out.println("Cantidad de filas " + v.length);
+        System.out.println("Cantidad de columnas " + v[0].length);
+
     }
     
     public static void despliega(int array[]){
