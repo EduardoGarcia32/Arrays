@@ -23,6 +23,9 @@ public class Arrays {
         int valores[ ] = new int [espacios];
         System.out.println("Cantidad de casillas: " + valores.length);
         despliega(valores);
+        
+        double ventas [ ][ ] = new double[3][4];
+        int v[ ][ ] = {{2, 4, 6}, {1, 3, 5}}; 
     }
     
     public static void despliega(int array[]){
